@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="EE-DIGITAL" parallel="none">
+  <test name="Test">
+   <groups>
+         <run>
+            <include name = "WEB" />
+            
+         </run>
+      </groups>
+    <classes>
+      
+      <class name="com.Descisioning.tests.UpgradeRecommendations"/>
+      <class name="com.Descisioning.tests.RequestEarlyUpgradeFee"/>
+      <class name="com.Descisioning.tests.AllowanceRules"/>
+     
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

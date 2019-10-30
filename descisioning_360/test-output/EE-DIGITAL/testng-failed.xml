@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [EE-DIGITAL]" parallel="none">
+  <test name="Test(failed)" parallel="none">
+    <groups>
+      <run>
+        <include name="WEB"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.Descisioning.tests.RequestEarlyUpgradeFee">
+        <methods>
+          <include name="earlyUpgradeFee_PAYM_WEB" invocation-numbers="0 1 2 3"/>
+        </methods>
+      </class> <!-- com.Descisioning.tests.RequestEarlyUpgradeFee -->
+      <class name="com.Descisioning.tests.AllowanceRules">
+        <methods>
+          <include name="allowanceRules_StandardUpgrade_PAYM" invocation-numbers="0 1 2 3"/>
+          <include name="allowanceRules_Earlyupgrade_PAYM" invocation-numbers="0 1 2 3"/>
+          <include name="allowanceRules_StandardUpgrade_SIMO" invocation-numbers="0 1 2 3"/>
+        </methods>
+      </class> <!-- com.Descisioning.tests.AllowanceRules -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [EE-DIGITAL] -->

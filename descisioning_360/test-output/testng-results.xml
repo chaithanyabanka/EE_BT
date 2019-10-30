@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="4" total="4" passed="0">
+  <reporter-output>
+    <line>
+      <![CDATA[]]>
+    </line>
+    <line>
+      <![CDATA[]]>
+    </line>
+    <line>
+      <![CDATA[]]>
+    </line>
+    <line>
+      <![CDATA[Title is matching :My EE login]]>
+    </line>
+    <line>
+      <![CDATA[Element is present :]]>
+    </line>
+    <line>
+      <![CDATA[Element is present :]]>
+    </line>
+    <line>
+      <![CDATA[Element is not present :]]>
+    </line>
+    <line>
+      <![CDATA[]]>
+    </line>
+    <line>
+      <![CDATA[]]>
+    </line>
+    <line>
+      <![CDATA[Title is matching :My EE login]]>
+    </line>
+    <line>
+      <![CDATA[Element is present :]]>
+    </line>
+    <line>
+      <![CDATA[Element is present :]]>
+    </line>
+    <line>
+      <![CDATA[Element is not present :]]>
+    </line>
+    <line>
+      <![CDATA[]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="171708" started-at="2019-10-29T12:46:35Z" finished-at="2019-10-29T12:49:27Z">
+    <groups>
+      <group name="WEB">
+        <method signature="RequestEarlyUpgradeFee.earlyUpgradeFee_PAYM_WEB(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Descisioning.tests.RequestEarlyUpgradeFee@e580929]" name="earlyUpgradeFee_PAYM_WEB" class="com.Descisioning.tests.RequestEarlyUpgradeFee"/>
+      </group> <!-- WEB -->
+    </groups>
+    <test name="Default test" duration-ms="171708" started-at="2019-10-29T12:46:35Z" finished-at="2019-10-29T12:49:27Z">
+      <class name="com.Descisioning.tests.RequestEarlyUpgradeFee">
+        <test-method status="PASS" signature="precondition()[pri:0, instance:com.Descisioning.tests.RequestEarlyUpgradeFee@e580929]" name="precondition" is-config="true" duration-ms="20599" started-at="2019-10-29T18:16:39Z" finished-at="2019-10-29T18:16:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- precondition -->
+        <test-method status="FAIL" signature="earlyUpgradeFee_PAYM_WEB(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Descisioning.tests.RequestEarlyUpgradeFee@e580929]" name="earlyUpgradeFee_PAYM_WEB" duration-ms="16" started-at="2019-10-29T18:16:59Z" data-provider="earlyUpgradeCTNs_PAYM" finished-at="2019-10-29T18:16:59Z">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+            <param index="1">
+              <value is-null="true"/>
+            </param>
+            <param index="2">
+              <value is-null="true"/>
+            </param>
+            <param index="3">
+              <value is-null="true"/>
+            </param>
+            <param index="4">
+              <value is-null="true"/>
+            </param>
+            <param index="5">
+              <value is-null="true"/>
+            </param>
+            <param index="6">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <exception class="java.lang.NumberFormatException">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NumberFormatException: null
+	at java.lang.Integer.parseInt(Unknown Source)
+	at java.lang.Integer.parseInt(Unknown Source)
+	at com.Descisioning.tests.RequestEarlyUpgradeFee.earlyUpgradeFee_PAYM_WEB(RequestEarlyUpgradeFee.java:29)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:112)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:205)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:176)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NumberFormatException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- earlyUpgradeFee_PAYM_WEB -->
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:com.Descisioning.tests.RequestEarlyUpgradeFee@e580929]" name="postCondition" is-config="true" duration-ms="818" started-at="2019-10-29T18:16:59Z" finished-at="2019-10-29T18:17:00Z">
+          <reporter-output>
+            <line>
+              <![CDATA[]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+        <test-method status="PASS" signature="precondition()[pri:0, instance:com.Descisioning.tests.RequestEarlyUpgradeFee@e580929]" name="precondition" is-config="true" duration-ms="2532" started-at="2019-10-29T18:17:00Z" finished-at="2019-10-29T18:17:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- precondition -->
+        <test-method status="FAIL" signature="earlyUpgradeFee_PAYM_WEB(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Descisioning.tests.RequestEarlyUpgradeFee@e580929]" name="earlyUpgradeFee_PAYM_WEB" duration-ms="0" started-at="2019-10-29T18:17:03Z" data-provider="earlyUpgradeCTNs_PAYM" finished-at="2019-10-29T18:17:03Z">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+            <param index="1">
+              <value is-null="true"/>
+            </param>
+            <param index="2">
+              <value is-null="true"/>
+            </param>
+            <param index="3">
+              <value is-null="true"/>
+            </param>
+            <param index="4">
+              <value is-null="true"/>
+            </param>
+            <param index="5">
+              <value is-null="true"/>
+            </param>
+            <param index="6">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <exception class="java.lang.NumberFormatException">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NumberFormatException: null
+	at java.lang.Integer.parseInt(Unknown Source)
+	at java.lang.Integer.parseInt(Unknown Source)
+	at com.Descisioning.tests.RequestEarlyUpgradeFee.earlyUpgradeFee_PAYM_WEB(RequestEarlyUpgradeFee.java:29)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:112)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:205)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:176)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NumberFormatException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- earlyUpgradeFee_PAYM_WEB -->
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:com.Descisioning.tests.RequestEarlyUpgradeFee@e580929]" name="postCondition" is-config="true" duration-ms="781" started-at="2019-10-29T18:17:03Z" finished-at="2019-10-29T18:17:03Z">
+          <reporter-output>
+            <line>
+              <![CDATA[]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+        <test-method status="PASS" signature="precondition()[pri:0, instance:com.Descisioning.tests.RequestEarlyUpgradeFee@e580929]" name="precondition" is-config="true" duration-ms="1743" started-at="2019-10-29T18:17:03Z" finished-at="2019-10-29T18:17:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- precondition -->
+        <test-method status="FAIL" signature="earlyUpgradeFee_PAYM_WEB(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Descisioning.tests.RequestEarlyUpgradeFee@e580929]" name="earlyUpgradeFee_PAYM_WEB" duration-ms="69589" started-at="2019-10-29T18:17:05Z" data-provider="earlyUpgradeCTNs_PAYM" finished-at="2019-10-29T18:18:15Z">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Early Upgrade]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[07996231152]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[omnitest10093@yopmail.com]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[password123]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <exception class="junit.framework.AssertionFailedError">
+            <full-stacktrace>
+              <![CDATA[junit.framework.AssertionFailedError
+	at junit.framework.Assert.fail(Assert.java:55)
+	at junit.framework.Assert.fail(Assert.java:64)
+	at com.Descisioning.generics.BasePage.verifyElement(BasePage.java:91)
+	at com.DigitalMyEE.pages.MyEEloginPage.verifyTheElements(MyEEloginPage.java:120)
+	at com.DigitalMyEE.pages.MyEEloginPage.myloginpageOperations(MyEEloginPage.java:145)
+	at com.Descisioning.tests.RequestEarlyUpgradeFee.earlyUpgradeFee_PAYM_WEB(RequestEarlyUpgradeFee.java:72)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:112)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:205)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:176)
+]]>
+            </full-stacktrace>
+          </exception> <!-- junit.framework.AssertionFailedError -->
+          <reporter-output>
+            <line>
+              <![CDATA[]]>
+            </line>
+            <line>
+              <![CDATA[Title is matching :My EE login]]>
+            </line>
+            <line>
+              <![CDATA[Element is present :]]>
+            </line>
+            <line>
+              <![CDATA[Element is present :]]>
+            </line>
+            <line>
+              <![CDATA[Element is not present :]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- earlyUpgradeFee_PAYM_WEB -->
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:com.Descisioning.tests.RequestEarlyUpgradeFee@e580929]" name="postCondition" is-config="true" duration-ms="922" started-at="2019-10-29T18:18:15Z" finished-at="2019-10-29T18:18:16Z">
+          <reporter-output>
+            <line>
+              <![CDATA[]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+        <test-method status="PASS" signature="precondition()[pri:0, instance:com.Descisioning.tests.RequestEarlyUpgradeFee@e580929]" name="precondition" is-config="true" duration-ms="1694" started-at="2019-10-29T18:18:16Z" finished-at="2019-10-29T18:18:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- precondition -->
+        <test-method status="FAIL" signature="earlyUpgradeFee_PAYM_WEB(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Descisioning.tests.RequestEarlyUpgradeFee@e580929]" name="earlyUpgradeFee_PAYM_WEB" duration-ms="68864" started-at="2019-10-29T18:18:17Z" data-provider="earlyUpgradeCTNs_PAYM" finished-at="2019-10-29T18:19:26Z">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Early Upgrade]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[07996231153]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[omnitest10094@yopmail.com]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[password123]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <exception class="junit.framework.AssertionFailedError">
+            <full-stacktrace>
+              <![CDATA[junit.framework.AssertionFailedError
+	at junit.framework.Assert.fail(Assert.java:55)
+	at junit.framework.Assert.fail(Assert.java:64)
+	at com.Descisioning.generics.BasePage.verifyElement(BasePage.java:91)
+	at com.DigitalMyEE.pages.MyEEloginPage.verifyTheElements(MyEEloginPage.java:120)
+	at com.DigitalMyEE.pages.MyEEloginPage.myloginpageOperations(MyEEloginPage.java:145)
+	at com.Descisioning.tests.RequestEarlyUpgradeFee.earlyUpgradeFee_PAYM_WEB(RequestEarlyUpgradeFee.java:72)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:112)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:205)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:176)
+]]>
+            </full-stacktrace>
+          </exception> <!-- junit.framework.AssertionFailedError -->
+          <reporter-output>
+            <line>
+              <![CDATA[]]>
+            </line>
+            <line>
+              <![CDATA[Title is matching :My EE login]]>
+            </line>
+            <line>
+              <![CDATA[Element is present :]]>
+            </line>
+            <line>
+              <![CDATA[Element is present :]]>
+            </line>
+            <line>
+              <![CDATA[Element is not present :]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- earlyUpgradeFee_PAYM_WEB -->
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:com.Descisioning.tests.RequestEarlyUpgradeFee@e580929]" name="postCondition" is-config="true" duration-ms="947" started-at="2019-10-29T18:19:26Z" finished-at="2019-10-29T18:19:27Z">
+          <reporter-output>
+            <line>
+              <![CDATA[]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- com.Descisioning.tests.RequestEarlyUpgradeFee -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
